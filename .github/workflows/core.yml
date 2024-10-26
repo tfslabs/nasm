@@ -3,7 +3,7 @@ name: NASM core forking for GitHub Actions
 on:
   push:
     branches:
-      - no-available-just-rename-in-case-you-want
+      - 2.15.05rc2
 
 permissions:
   contents: write
