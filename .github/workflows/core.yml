@@ -32,6 +32,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           rm nasm-2.15.05rc2.tar.gz
+          rm .gitignore
           git add .
           git commit -m "NASM core forking for GitHub Actions, version 2.15.05rc2"
           git push
